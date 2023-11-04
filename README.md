@@ -76,11 +76,11 @@ Als laatste zorg je dat je website gehost wordt als een Github Pages website (wo
 <details>
 <summary>opdracht 1: Onderwerp Vinden</summary>
 
-> - [ ] Benoem je onderwerp
-> - [ ] Bedenk welke pagina's je nodig hebt
-> - [ ] Verzamel de nodige inhoud
+> - [x] Benoem je onderwerp
+> - [x] Bedenk welke pagina's je nodig hebt
+> - [x] Verzamel de nodige inhoud
 >   - teksten, afbeeldingen, titels, ...
-> - [ ] Onderzoek stijlen van de concurrentie
+> - [x] Onderzoek stijlen van de concurrentie
 >   - bekijk andere websites die over een gelijkaardig thema gaan
 
 </details>
@@ -90,10 +90,10 @@ Als laatste zorg je dat je website gehost wordt als een Github Pages website (wo
 <details>
 <summary>opdracht 2: Mock-Ups</summary>
 
-> - [ ] Werk je pagina's uit in mock-ups
+> - [x] Werk je pagina's uit in mock-ups
 >   - kleurloos, focus op layout en ruimte
-> - [ ] Bepaal waar de verzamelde inhoud (uit opdracht 1) moet komen staan
-> - [ ] Bepaal de huisstijl
+> - [x] Bepaal waar de verzamelde inhoud (uit opdracht 1) moet komen staan
+> - [x] Bepaal de huisstijl
 >   - 60-30-10 principe: dominante kleur, complementaire kleur, contrast kleur (+ eventuele accent kleur)
 
 </details>
