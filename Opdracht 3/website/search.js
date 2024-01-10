@@ -1,4 +1,4 @@
-// script.js
+// search.js
 
 // Function to handle search
 function handleSearch() {
@@ -26,5 +26,13 @@ function handleSearch() {
     }
 }
 
-// Event listener for the search button
-document.getElementById('searchButton').addEventListener('click', handleSearch);
+// Event listener for the DOMContentLoaded event
+document.addEventListener('DOMContentLoaded', function () {
+    // Event listener for the search button
+    var searchButton = document.getElementById('searchButton');
+    if (searchButton) {
+        searchButton.addEventListener('click', handleSearch);
+    } else {
+        console.error('searchButton not found.');
+    }
+});
