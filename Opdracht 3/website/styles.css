@@ -59,6 +59,12 @@ p {
     object-fit: fill; 
 }
 
+.music {
+    width: 100%; 
+    max-height: 800px; 
+    object-fit: fill; 
+}
+
 .politics {
     width: 100%; 
     max-height: 700px; 
