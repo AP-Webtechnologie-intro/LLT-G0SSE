@@ -39,20 +39,33 @@ p {
     width: 100%;
 }
 
+.icons {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
 .navigation {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .navigation li {
     display: inline-block;
     margin-right: 20px; /* Adjust spacing between links */
+    text-align: center;
 }
 
 .navigation a {
     text-decoration: none;
     color: #39FF14; /* Neon Green */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navigation a:hover {
@@ -82,15 +95,35 @@ p {
     max-height: 700px; 
     object-fit: fill; 
 }
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; /* Add this line */
+}
+
 .menu a {
     color: #00FF00; /* Neon Green */
     text-decoration: none; /* Remove underlines from links */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 10px; /* Add this line */
+
 }
 
 .menu a:hover {
     text-decoration: underline; /* Add underline on hover */
 }
 
+.search-bar {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
 
 .US_flag {
     position: fixed;
