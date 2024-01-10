@@ -15,6 +15,7 @@ h1, h2 {
 p {
     color: #39FF14;
     padding: 10px;
+    text-align: center;
 }
 
 #contact-forms {
