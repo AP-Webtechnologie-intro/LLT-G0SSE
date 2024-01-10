@@ -12,7 +12,8 @@ function handleSearch() {
         'history': 'history.html',
         'literature': 'literature.html',
         'music': 'music.html',
-        'politics': 'politics.html'
+        'politics': 'politics.html',
+        'contact': 'contact.html'
         // Add more topics as needed
     };
 
