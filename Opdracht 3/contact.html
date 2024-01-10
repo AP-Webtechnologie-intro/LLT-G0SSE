@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Include Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+
+    <h1>Contact Us</h1>
+
+    <div id="contact-forms">
+        <!-- Admin Contact Form -->
+        <div class="contact-form" id="admin-form">
+            <h2>Contact Admin</h2>
+            <form action="#" method="post">
+                <label for="admin-name">Your Name:</label>
+                <input type="text" id="admin-name" name="admin-name" required>
+
+                <label for="admin-email">Your Email:</label>
+                <input type="email" id="admin-email" name="admin-email" required>
+
+                <label for="admin-message">Message:</label>
+                <textarea id="admin-message" name="admin-message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Web Designer Contact Form -->
+        <div class="contact-form" id="designer-form">
+            <h2>Contact Web Designer</h2>
+            <form action="#" method="post">
+                <label for="designer-name">Your Name:</label>
+                <input type="text" id="designer-name" name="designer-name" required>
+
+                <label for="designer-email">Your Email:</label>
+                <input type="email" id="designer-email" name="designer-email" required>
+
+                <label for="designer-message">Message:</label>
+                <textarea id="designer-message" name="designer-message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Map with Marker -->
+    <div id="map" style="height: 400px;"></div>
+
+    <!-- Include Leaflet library and your contact.js file -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="contact.js"></script>
+
+</body>
+</html>
