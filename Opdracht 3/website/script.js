@@ -28,7 +28,7 @@ function fetchMovieDetails() {
 
             // Example: Display movie details on the cinema page
             const cinemaPage = document.getElementById('cinema-page');
-            cinemaPage.innerHTML = `<h2>${data.Title}</h2>
+            cinemaPage.innerHTML = `<p>${data.Title}</p>
                                     <p>Release Date: ${data.Released}</p>
                                     <p>Director: ${data.Director}</p>
                                     <p>Actors: ${data.Actors}</p>`;

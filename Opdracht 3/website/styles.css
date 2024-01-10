@@ -7,11 +7,14 @@ body {
     position: relative; 
 }
 
-h1, h2, p {
+h1, h2 {
     color: #cc0000; /* White text */
     text-align: center;
 }
 
+p {
+    color: #39FF14;
+}
 #cinema-page {
     padding: 20px;
     margin: 20px;
@@ -20,7 +23,6 @@ h1, h2, p {
 
 #map {
     background-color: #cc0000; /* 30% red */
-    padding: 20px;
     margin: 20px;
     border-radius: 8px;
 }
