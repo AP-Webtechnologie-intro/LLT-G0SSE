@@ -28,6 +28,12 @@ p {
     border-radius: 8px;
 }
 
+#politics-map {
+    height: 300px;
+    width: 100%;
+}
+
+
 .navigation {
     list-style-type: none;
     padding: 0;
